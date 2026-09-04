@@ -1,5 +1,5 @@
 """
-example_05.py
+example_06.py
 
 Ejemplo de integración con YOLO11, filtrado por clases.
 """
@@ -73,7 +73,7 @@ def main():
     TARGET_CLASSES = [car_id, moto_id, bus_id, truck_id]
     
     # 2. URL RTSP de tu cámara IP
-    rtsp_url = "rtsp://admin:LKKHTL@192.168.0.2:554/streaming/channels/102"
+    rtsp_url = "rtsp://admin:AAAAAA@192.168.0.100:554/streaming/channels/102"
 
     print("Conectando a la cámara IP...")
     cam = VideoStreamIP(rtsp_url)
@@ -118,8 +118,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-# FUNCIONA CORRECTAMENTE
 
 # Página de ultralytics en español
 # https://docs.ultralytics.com/es
