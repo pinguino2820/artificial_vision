@@ -74,7 +74,7 @@ def main():
     model = YOLO("yolo11n.pt")
 
     # 2. URL RTSP de tu cámara IP
-    rtsp_url = "rtsp://admin:LKKHTL@192.168.0.2:554/streaming/channels/102"
+    rtsp_url = "rtsp://admin:AAAAAA@192.168.0.100:554/streaming/channels/102"
 
     print("Conectando a la cámara IP...")
     cam = VideoStreamIP(rtsp_url)
@@ -115,5 +115,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-# FUNCIONA CORRECTAMENTE
 
